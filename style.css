@@ -1,0 +1,13 @@
+*{
+    font-family: Helvetica sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+p{
+    color: gray;
+}
+button{
+    background-color: black;
+}
