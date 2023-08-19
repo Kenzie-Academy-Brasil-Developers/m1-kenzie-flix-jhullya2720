@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -8,54 +8,76 @@ body{
     background-color: black;
     color: white;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 15px;
 }
-.perfis{
+
+.perfis {
     width: 1000px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 8%;
 }
 
-.perfis-1{
+.perfis-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-p{
+
+p {
     color: gray;
 }
-.button{
+
+.button {
     background-color: black;
     color: white;
     font-size: 15px;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
-button{
+
+button {
     background-color: black;
-    color: white;
-    font-size: 18px;
-    border-radius: 15px;
+    color: gray;
+    font-size: 15px;
     padding: 10px;
-    border: white solid 1px;
+    border: gray solid 1px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
-    justify-content:center;
-    margin: 10px;
-    
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 5%;
 
 }
-img{
+
+img {
     width: 200px;
     border-radius: 10px;
 }
 
+li:hover img {
+    border: 1px solid white;
+
+}
+
+li:hover p {
+    color: white;
+}
+
+button:hover {
+    color: white;
+    background-color: white;
+    color: black;
+}
